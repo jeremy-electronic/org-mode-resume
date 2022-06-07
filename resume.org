@@ -67,6 +67,18 @@
   :CUSTOM_ID: work-experience
   :END:
 
+** 10/2020 - present
+   [[http://port80.com][Port80]]\\
+   **Freelance Software Developer**
+
+   Utilized Shopify and supporting full-stack technologies from node.js (on koa or express, jest for TDD) to React (incl. mobx-state-tree, styled-components, React Hooks), and Shopify's GraphQL where applicable to develop storefronts and backend integrations (eg. Logicbroker's logistics) for a variety of client requests.
+
+   Overcame challenges resulting from a resource-poor, fast-paced environment often splitting time across disparate projects and managing novice developers in different timezones worldwide.
+
+   Recently refactored a year-running project which had grown out of control as a result of no quality control or code review on the node.js backend  (zero modularity, no abstraction of SQL, among others), migrating the React frontend on AppEngine to Cloud Run for easier management / consistency of deployment (Github, Cloud Build).
+
+   Occasionally tasked with turning vague requirements / discovery into SoW's and more refined project plans.
+
 ** 11/2017 - 7/2020
    [[https://myseiubenefits.org][SEIU 775 Benefits Group]]\\
    **Sr. Software Developer**
