@@ -41,6 +41,7 @@
 ** Location
    Berlin, Germany (US citizen)
 ** Mobile
+   +1 206 395 3262
    +49 170 592 3415
 ** E-mail
    jeremy.electronic@protonmail.com
@@ -56,9 +57,9 @@
 ** Platform Experience
    *Frameworks*: node.js, Ruby on Rails, Laraval
 
-   *Cloud Related*: AWS (Redshift, EC2, ELB, Lambda, VPC, awscli, API Gateway, CloudFormation), GCP (GKE, Cloud PubSub), serverless
+   *Cloud Related*: AWS (Redshift, EC2, ELB, Lambda, VPC, [[https://aws.amazon.com/cli/][awscli]], [[https://aws.amazon.com/api-gateway/][API Gateway]], [[https://aws.amazon.com/cloudformation/resources/templates/][CloudFormation]]), GCP ([[https://cloud.google.com/kubernetes-engine][GKE]], Cloud Run, [[https://cloud.google.com/pubsub/][Cloud PubSub]]), [[https://github.com/aws/aws-sam-cli][serverless]]
 
-   *CI/CD*: Jenkins-X (jx), ElasticBeanstalk
+   *CI/CD*: [[https://jenkins-x.io/][Jenkins-X]] (jx), ElasticBeanstalk (AWS), Cloud Build (GCP) + Github Actions + supporting cast (eg. [[https://github.com/github/super-linter][Super Linter]])
 ** Other Abilities / Tools
    command line (zsh, tmux, emacs, ssh) in *nix environments, monitoring (Grafana) & logging (CloudWatch, Splunk), documentation (markdown, wiki + Atlassian)
 
@@ -71,7 +72,7 @@
    [[http://port80.com][Port80]]\\
    **Freelance Software Developer**
 
-   Utilized Shopify and supporting full-stack technologies from node.js (on koa or express, jest for TDD) to React (incl. mobx-state-tree, styled-components, React Hooks), and Shopify's GraphQL where applicable to develop storefronts and backend integrations (eg. Logicbroker's logistics) for a variety of client requests.
+   Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and Shopify's GraphQL where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
 
    Overcame challenges resulting from a resource-poor, fast-paced environment often splitting time across disparate projects and managing novice developers in different timezones worldwide.
 
@@ -83,41 +84,41 @@
    [[https://myseiubenefits.org][SEIU 775 Benefits Group]]\\
    **Sr. Software Developer**
 
-First senior hire for a new agile development team focused on development of  an online learning-management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
-
-Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
-
-Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC using CloudFormation templates (later serverless) to mitigate future waste.
-
-Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowlegebases, or code-review), building instruction materials on a weekly basis.
+   First senior hire for a new agile development team focused on development of  an online learning-management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
+   
+   Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
+   
+   Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC leveraging CloudFormation templates (later serverless) to mitigate future waste.
+   
+   Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, or code-review), providing instruction materials on a weekly basis.
 
 ** 05/2017 - 08/2017
    [[http://port80.com][Port80]]\\
    **Freelance Software Developer**
 
-   Architected and built a node.js backend to integrate StitchLabs (an e-commerce platform for supply chain management) with various vendor distribution centers to connect small retailers to larger distribution systems.
+   Architected and built a node.js backend to integrate [[https://www.linkedin.com/company/stitchlabs/][StitchLabs]] (an e-commerce platform for supply chain management) with various vendor distribution centers to connect small retailers to larger distribution systems.
 
-   Overcame repeated challenges arising from intermittent failure in client authentication systems.  Assisted their internal teams in reproducing and diagnosing the root cause, going past business hours as needed.
+   Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted their internal teams in reproducing and diagnosing the root cause, going past business hours as needed.
 
 ** 02/2012 - 01/2017
    [[https://fullcircle.com][Full Circle]]\\
-   **Front End / Full-stack Developer**
+   **FrontEnd / FullStack Developer**
 
    Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, leading to sustained growth from $6m to $16m over 3 years.
 
-   Took lead on design, UX direction, and engineering of a full front-end toolset for distribution center management to inform our produce-buyer decisions + input new products / inventory, and to support the in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met or their processes were improved as a result.
+   Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform our produce-buyer decisions + input new products / inventory, and to support the in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met or their processes were improved as a result.
 
-   Employed TDD to ensure a reliable UI with minimal downtime through regular regression testing via Jasmine + Sinon.
+   Employed TDD to ensure a reliable UI with minimal downtime through regular regression testing via [[https://jasmine.github.io/][Jasmine]] + [[https://sinonjs.org/][Sinon]].
 
 ** 08/2011 - 02/2012
   [[https://bluenile.com][Blue Nile]]\\
-  **Developer, Front-End**
+  **Developer, FrontEnd**
 
   Built new features as part of the Site Development team, such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
 
   Maintained an aging JSP framework which was glued together with monolithic JS using jQuery.  
 
-  Drove and developed a YAML-driven promotion engine to improve efficiency of adjusting the site with new business rules and to more easily allow for UAT to be completed on a short timeline from promotion details to deployment.
+  Drove and developed a YAML-driven promotion engine to improve efficiency of launching new features which include new business rules as well as allowing for UAT to be completed within the time constraints which arise each holiday season.
 
 ** 01/2011 - 06/2011
    [[http://ubm.com][United Business Media]]\\
@@ -125,9 +126,9 @@ Improved team efficiency through guidance and mentorship of junior developers (e
 
    Web application development, site maintenance, and event production for the [[https://blackhat.com][Black Hat]] brand.
 
-   Built out event micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
+   Created micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
 
-   Sole-developer on the first refactor of their CFP (call for papers) system from database design to implementation in Rails.
+   Sole-developer on the first refactor of the CFP (call for papers) system from database design to implementation in Rails.
 
 ** 08/2008 - 11/2010
    [[http://avelle.com][Bag Borrow or Steal]]\\
@@ -137,7 +138,7 @@ Improved team efficiency through guidance and mentorship of junior developers (e
 
    Heavily focused on exploratory work and prototyping of new features, such as improved quick-look / zoom within the product browse interface.
 
-   Integrated a from-scratch interface with a backend API built out as part of a full migration of inventory to an in-house storage facility, the rollout of which had a hard deadline and where failure was not an option.
+   Integrated a from-scratch interface with a backend API built out as part of a total migration of inventory to an in-house storage facility, the rollout of which had a hard deadline and where failure was not an option.
 
 
 * Education
