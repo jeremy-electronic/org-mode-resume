@@ -72,13 +72,13 @@
    [[http://port80.com][Port80]]\\
    **Freelance Software Developer**
 
-   Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and Shopify's GraphQL where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
+   Translated vague requirements into an enterprise CRM for a rapidly growing recycling firm which involved turning complex business rules into dozens of forms (React, [[https://formik.org/][Formik]]) from signup to login (including 2FA using [[https://www.twilio.com/][Twilio]]) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on [[https://cloud.google.com/run][Google Cloud Run]] via [[https://github.com/features/actions][Github Actions]].  Wrote and maintained copious SQL queries (mysql) often involving complicated joins.
 
-   Overcame challenges resulting from a resource-poor, fast-paced environment often splitting time across disparate projects and managing novice developers in different timezones worldwide.
+   Performed security audits using [[https://snyk.io/][SNYK]] to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
 
-   Recently refactored a year-running project which had grown out of control due to lack of quality control or code review on the node.js backend  (zero modularity, no abstraction of SQL, among others), migrating the React frontend on AppEngine to Cloud Run for easier management / consistency of deployment (Github, Cloud Build).
+   Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and [[https://shopify.dev/docs/api/admin-graphql][Shopify's GraphQL]] where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
 
-   Regularly tasked with turning vague requirements / discovery into SoW's and more refined project plans.
+   Overcame challenges resulting from a fast-paced environment often splitting time between disparate projects and managing junior developers residing in different timezones worldwide.
 
 ** 11/2017 - 7/2020
    [[https://myseiubenefits.org][SEIU 775 Benefits Group]]\\
@@ -90,7 +90,7 @@
    
    Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC leveraging CloudFormation templates (later serverless) to mitigate future waste.
    
-   Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, or code-review), providing instruction materials on a weekly basis.
+   Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, code review), providing instruction materials on a weekly basis.
 
 ** 05/2017 - 08/2017
    [[http://port80.com][Port80]]\\
