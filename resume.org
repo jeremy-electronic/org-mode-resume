@@ -39,10 +39,9 @@
 
 * Contact
 ** Location
-   Berlin, Germany (US citizen)
+   Seattle, WA, USA (US citizen)
 ** Mobile
-   \nbsp\nbsp+1 (206) 395 3262\\
-   +49 (170) 592 3415
+   \nbsp\nbsp+1 (206) 395 3262
 ** E-mail
    jeremy.electronic@protonmail.com
 * Skillset
@@ -68,7 +67,7 @@
   :CUSTOM_ID: work-experience
   :END:
 
-** 10/2020 - present
+** 10/2020 - 12/2023
    [[http://port80.com][Port80]]\\
    **Freelance Software Developer**
 
