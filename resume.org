@@ -20,6 +20,7 @@
 #+LaTeX_HEADER: \usepackage{tgtermes}
 #+LaTeX_HEADER: \usepackage[scale=.85]{tgheros}
 #+LaTeX_HEADER: \usepackage{tgcursor}
+#+LaTeX_HEADER: \usepackage[none]{hyphenat}%%%%
 #+LaTeX_HEADER: \renewcommand{\familydefault}{\sfdefault}
 :END:
 
@@ -41,9 +42,9 @@
 ** Location
    Seattle, WA, USA (US citizen)
 ** Mobile
-   \nbsp\nbsp+1 (206) 395 3262
+   \nbsp+1 (206) 395 3262
 ** E-mail
-   jeremy.electronic@protonmail.com
+   [[mailto:jeremy.electronic@protonmail.com][jeremy.electronic@protonmail.com]]
 * Skillset
   :PROPERTIES:
   :CUSTOM_ID: knowledge
@@ -60,12 +61,25 @@
 
    *CI/CD*: [[https://jenkins-x.io/][Jenkins-X]] (jx), ElasticBeanstalk (AWS), Cloud Build (GCP) + Github Actions + supporting cast (eg. [[https://github.com/github/super-linter][Super Linter]])
 ** Other Abilities / Tools
-   command line (zsh, tmux, emacs, ssh) in *nix environments, monitoring (Grafana) & logging (CloudWatch, Splunk), documentation (markdown, wiki + Atlassian)
+   command line (zsh, tmux, emacs, ssh) in *nix environments, monitoring (Grafana) & logging (CloudWatch, Splunk), documentation (markdown, wiki + Atlassian), [[https://react.dev/learn/typescript][Typescript + React]]
 
 * Experience
   :PROPERTIES:
   :CUSTOM_ID: work-experience
   :END:
+
+** 01/2024 - present
+   **Freelance Software Developer**
+   
+Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
+
+Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
+
+Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
+
+Improved UX across key site features within a legacy jQuery frontend environment.
+
+Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
 
 ** 10/2020 - 12/2023
    [[http://port80.com][Port80]]\\
@@ -83,7 +97,7 @@
    [[https://myseiubenefits.org][SEIU 775 Benefits Group]]\\
    **Sr. Software Developer**
 
-   First senior hire for a new agile development team focused on development of  an online learning-management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
+   First senior hire for a new agile development team focused on development of  an online learning management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
    
    Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
    
@@ -127,7 +141,8 @@
 
    Created micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
 
-   Sole-developer on the first refactor of the CFP (call for papers) system from database design to implementation in Rails.
+   Sole-developer on the first refactor of the CFP (call for papers) system from database design to\\
+   implementation in Rails.
 
 ** 08/2008 - 11/2010
    [[http://avelle.com][Bag Borrow or Steal]]\\
@@ -156,4 +171,4 @@
    pushing the web forward (eg. WebAssembly, Rust, Flutter), functional languages, infosec, UX principles (eg. Krug)
 
 ** Other
-   espresso, audio engineering, electronic music, race cars
+   espresso, audio engineering, electronic music, motorsport
