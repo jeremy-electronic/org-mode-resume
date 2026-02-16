@@ -42,7 +42,7 @@
 ** Location
    Seattle, WA, USA (US citizen)
 ** Mobile
-   \nbsp+1 (206) 395 3262
+   \nbsp+1 206 380 4777
 ** E-mail
    [[mailto:jeremy.electronic@protonmail.com][jeremy.electronic@protonmail.com]]
 * Skillset
@@ -50,12 +50,12 @@
   :CUSTOM_ID: knowledge
   :END:
 
-** Languages
-   JavaScript, Ruby, PHP
+** Primary Languages
+   JavaScript, Ruby, Java, PHP
 ** Database Experience
    PostgreSQL, mySQL, mongodb
 ** Platform Experience
-   *Frameworks*: node.js, Ruby on Rails, Laraval
+   *Frameworks*: node.js, Ruby on Rails, Struts & Spring + Hibernate, Laraval
 
    *Cloud Related*: AWS (Redshift, EC2, ELB, Lambda, VPC, [[https://aws.amazon.com/cli/][awscli]], [[https://aws.amazon.com/api-gateway/][API Gateway]], [[https://aws.amazon.com/cloudformation/resources/templates/][CloudFormation]]), GCP ([[https://cloud.google.com/kubernetes-engine][GKE]], Cloud Run, [[https://cloud.google.com/pubsub/][Cloud PubSub]]), [[https://github.com/aws/aws-sam-cli][serverless]]
 
@@ -69,29 +69,33 @@
   :END:
 
 ** 01/2024 - present
+   [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
    **Freelance Software Developer**
    
-Automated a manual-entry workflow involving 3 companies and 1.5 years.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code with no faults ensuring customer satisfaction and seamless rollout from staging to production.
+   Automated a manual-entry workflow involving 3 companies and 1.5 years.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code with no faults ensuring customer satisfaction and seamless rollout from staging to production.
 
-Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
+   Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
 
-Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
+   Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
 
-Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
+   Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
 
-Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
+   Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
 
-Improved UX across key site features within a legacy jQuery frontend environment.
+   Improved UX across key site features within a legacy jQuery frontend environment.
 
-Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
+   Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
 
 ** 10/2020 - 12/2023
    [[http://port80.com][Port80]]\\
+   [[https://ryseinc.ca/][Ryse Inc.]]\\
    **Freelance Software Developer**
 
-   Translated vague requirements into an enterprise CRM for a rapidly growing recycling firm which involved turning complex business rules into dozens of forms (React, [[https://formik.org/][Formik]]) from signup to login (including 2FA using [[https://www.twilio.com/][Twilio]]) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on [[https://cloud.google.com/run][Google Cloud Run]] via [[https://github.com/features/actions][Github Actions]].  Wrote and maintained copious SQL queries (mysql) often involving complicated joins.
+   Translated vague requirements into an enterprise CRM for a rapidly growing materials recycling firm which involved turning complex business rules into dozens of forms (React, Formik) from signup to login (including 2FA using Twilio) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on Google Cloud Run via Github Actions.  
 
-   Performed security audits using [[https://snyk.io/][SNYK]] to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
+   Performed a major codebase-wide refactor in order to replace extremely a deeply nested callback structure with async/await as well as abstract inline SQL (mysql) into a query library with easily maintainable modules.  Expanded the query library which often involving complicated joins.
+
+   Performed security audits using SNYK to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
 
    Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and [[https://shopify.dev/docs/api/admin-graphql][Shopify's GraphQL]] where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
 
