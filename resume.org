@@ -1,12 +1,12 @@
 #+TITLE: Jeremy Alan
-#+EMAIL: jeremy.electronic@protonmail.com
+#+EMAIL: jeremy.electronic@pm.me
 #+DESCRIPTION:
 #+KEYWORDS:
 #+SUBTITLE:
 #+DATE: \today
 
 #+AUTHOR: Jeremy Alan
-#+EMAIL: jeremy.electronic@protonmail.com
+#+EMAIL: jeremy.electronic@pm.me
 #+LANGUAGE: en
 
 :LATEX:
@@ -42,9 +42,9 @@
 ** Location
    Seattle, WA, USA (US citizen)
 ** Mobile
-   \nbsp+1 206 380 4777
+   +1 206 380 4777
 ** E-mail
-   [[mailto:jeremy.electronic@protonmail.com][jeremy.electronic@protonmail.com]]
+   [[mailto:jeremy.electronic@pm.me][jeremy.electronic@pm.me]]
 * Skillset
   :PROPERTIES:
   :CUSTOM_ID: knowledge
@@ -72,7 +72,7 @@
    [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
    **Freelance Software Developer**
    
-   Automated a manual-entry workflow involving 3 companies and 1.5 years.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code with no faults ensuring customer satisfaction and seamless rollout from staging to production.
+   Automated a manual-entry workflow involving 3 companies over a 1.5 timeframe.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code to GCP via Cloud Run with no faults ensuring customer satisfaction and seamless rollout from staging to production.
 
    Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
 
