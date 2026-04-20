@@ -51,7 +51,7 @@
   :END:
 
 ** Primary Languages
-   JavaScript, Ruby, Java, PHP
+   JavaScript, Typescript, Ruby, Java, Python, PHP
 ** Database Experience
    PostgreSQL, mySQL, mongodb
 ** Platform Experience
@@ -68,9 +68,17 @@
   :CUSTOM_ID: work-experience
   :END:
 
-** 01/2024 - present
-   [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
-   **Freelance Software Developer**
+** 02/2026 - present
+   [[https://snorkel.ai/][Snorkel AI]]\\
+   **Software Engineer, Experts Platform**
+
+   Providing evaluation of agent output for correctness (primarily Javascript, Typescript, Python, and Java pull requests) along with metric-based feedback in order to validate / improve datasets.
+
+   Identifying areas for process improvement in order to create more consistent standards for both submitters and reviewers.
+
+** 01/2024 - 01/2026
+   Freelance, [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
+   **Fullstack Software Developer**
    
    Automated a manual-entry workflow involving 3 companies over a 1.5 timeframe.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code to GCP via Cloud Run with no faults ensuring customer satisfaction and seamless rollout from staging to production.
 
