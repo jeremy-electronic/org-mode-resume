@@ -1,6 +1,7 @@
 *~
 *.html
 *.tex
+resume.toc
 resume.log
 texput.log
 resume.pdf

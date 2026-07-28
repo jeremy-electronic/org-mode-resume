@@ -1,4 +1,4 @@
-#+TITLE: Jeremy Alan
+#+TITLE: Jeremy Alan Current Resume / CV
 #+EMAIL: jeremy.electronic@pm.me
 #+DESCRIPTION:
 #+KEYWORDS:
@@ -11,26 +11,39 @@
 
 :LATEX:
 #+LATEX_CLASS: article
-#+LATEX_HEADER: \usepackage[letterpaper, margin=2cm]{geometry}
+#+LATEX_CLASS_OPTIONS: [11pt, letterpaper]
+#+LATEX_HEADER: \usepackage[letterpaper, margin=0.75in]{geometry}
 #+LATEX_HEADER: \linespread{0.85}
 #+LATEX_HEADER_EXTRA:
 #+LATEX_COMPILER: pdflatex
-#+LaTeX_HEADER: \usepackage{jas_org_cv}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{tgtermes}
-#+LaTeX_HEADER: \usepackage[scale=.85]{tgheros}
-#+LaTeX_HEADER: \usepackage{tgcursor}
-#+LaTeX_HEADER: \usepackage[none]{hyphenat}%%%%
-#+LaTeX_HEADER: \renewcommand{\familydefault}{\sfdefault}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[none]{hyphenat}
+#+LATEX_HEADER: \usepackage[scale=.85]{tgheros}
+#+LATEX_HEADER: \renewcommand{\familydefault}{\sfdefault}
+
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \definecolor{linkcolour}{rgb}{0,0.2,0.6}
+#+LATEX_HEADER: \hypersetup{colorlinks, breaklinks, urlcolor=linkcolour, linkcolor=linkcolour}
+
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titleformat{\section}{\Large\bfseries\raggedright}{}{0em}{}[\titlerule]
+#+LATEX_HEADER: \titlespacing*{\section}{0pt}{16pt}{8pt}
+
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[itemize]{topsep=0pt, parsep=0pt, itemsep=3pt, leftmargin=15pt}
+#+LATEX_HEADER: \usepackage{parskip}
 :END:
 
 :OPTIONS:
 #+OPTIONS: toc:nil H:10 ':t
+#+OPTIONS: num:nil
+#+OPTIONS: auth:nil creator:nil timestamp:nil
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t broken-links:nil c:nil creator:nil
-#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
-#+OPTIONS: timestamp:t title:t  |:t tags:nil
+#+OPTIONS: timestamp:t title:nil  |:t tags:nil
 :END:
 
 #+SELECT_TAGS: export
@@ -38,139 +51,143 @@
 
 #+CREATOR: Emacs 27.1 (Org mode 9.3)
 
-* Contact
-** Location
-   Seattle, WA, USA (US citizen)
-** Mobile
-   +1 206 380 4777
-** E-mail
-   [[mailto:jeremy.electronic@pm.me][jeremy.electronic@pm.me]]
-* Skillset
+#+BEGIN_EXPORT latex
+\begin{center}
+    \vspace{-1.5cm} % Pull the name up to save space
+    {\Huge \textbf{Jeremy Alan}} \\[0.2cm]
+    \small
+    Seattle, WA, USA (US citizen) \quad \textbullet \quad 206-380-4777 \quad \textbullet \quad jeremy.electronic@pm.me \\
+    \href{https://linkedin.com}{://linkedin.com/i/jeremyelectronic}
+\end{center}
+\vspace{0.4cm}
+#+END_EXPORT
+
+* Technical Skills
   :PROPERTIES:
   :CUSTOM_ID: knowledge
   :END:
 
-** Primary Languages
-   JavaScript, Typescript, Ruby, Java, Python, PHP
-** Database Experience
-   PostgreSQL, mySQL, mongodb
-** Platform Experience
-   *Frameworks*: node.js, Ruby on Rails, Struts & Spring + Hibernate, Laraval
-
-   *Cloud Related*: AWS (Redshift, EC2, ELB, Lambda, VPC, [[https://aws.amazon.com/cli/][awscli]], [[https://aws.amazon.com/api-gateway/][API Gateway]], [[https://aws.amazon.com/cloudformation/resources/templates/][CloudFormation]]), GCP ([[https://cloud.google.com/kubernetes-engine][GKE]], Cloud Run, [[https://cloud.google.com/pubsub/][Cloud PubSub]]), [[https://github.com/aws/aws-sam-cli][serverless]]
-
-   *CI/CD*: [[https://jenkins-x.io/][Jenkins-X]] (jx), ElasticBeanstalk (AWS), Cloud Build (GCP) + Github Actions + supporting cast (eg. [[https://github.com/github/super-linter][Super Linter]])
-** Other Abilities / Tools
-   command line (zsh, tmux, emacs, ssh) in *nix environments, monitoring (Grafana) & logging (CloudWatch, Splunk), documentation (markdown, wiki + Atlassian), [[https://react.dev/learn/typescript][Typescript + React]]
+- *Languages:* JavaScript, TypeScript, Ruby, Java, Python, PHP
+- *Cloud & Infrastructure:* AWS, GCP, Kubernetes, Docker, Terraform, CloudFormation
+- *Databases:* PostgreSQL, MySQL, MongoDB, Redshift
+- *Frameworks:* Node.js, React, Ruby on Rails, Spring/Hibernate
+- *Practices:* CI/CD, distributed systems, REST APIs, observability
 
 * Experience
   :PROPERTIES:
   :CUSTOM_ID: work-experience
   :END:
 
-** 02/2026 - present
-   [[https://snorkel.ai/][Snorkel AI]]\\
-   **Software Engineer, Experts Platform**
+** Software Engineer, Experts Platform
+  :PROPERTIES:
+  :TECHNOLOGIES: TypeScript Python Ruby GPT-5 Harbor Framework Kubernetes
+  :END:
+Snorkel AI\\
+Feb 2026 - Present
+- Identified dataset and workflow issues improving platform efficiency, including diagnosing container memory over-provisioning (~70% excess allocation) that reduced trial concurrency across 100k+ daily evaluations.
 
-   Evaluation of agent output for correctness in a variety of langauges (Javascript, Typescript, Ruby, Python and occasionally Java pull requests) along with metric-based feedback in order to validate & improve datasets.
+- Evaluated agent-generated code across JavaScript, TypeScript, Ruby, Python, and Java repositories, providing metric-based feedback used to validate and improve training datasets.
 
-   Authoring of test harnesses utilizing [[https://www.harborframework.com/][Harbor Framework]] in order to test frontier agent behavior (GPT 5.2 & 5.5, Opus 4.8) within a standardized environment against real-world scenarios involving complex multi-step reasoning including build-processes and deployment (eg. using Helm chart specs).
+- Developed test harnesses using Harbor Framework to evaluate frontier model behavior (GPT-5.x, Claude Opus) against real-world multi-step engineering scenarios including builds and deployments.
 
-   Identification of process improvements across provided datasets and within developer workflows leading to improved documentation as well as non-trivial time and resource savings platform-wide.  Examples such as an undiagnosed dataset issue leading to significantly decreased concurrency when running agent trial batches both during development as well as across platform backend builds due to greatly over-provisioned container memory footprint (>~70% container, est. 100k+ trials/day) as well as order of operations errors within default verifier scripts which lead to costly re-runs.
-
-** 01/2024 - 01/2026
-   Freelance, [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
-   **Fullstack Software Developer**
+** Freelance Fullstack Software Developer
+  :PROPERTIES:
+  :TECHNOLOGIES: TypeScript JavaScript Jest Figma Shopify GraphQL Google Cloud EDI
+  :END:
+Factory Direct Blinds\\
+Jan 2024 - Jan 2026
    
-   Automated a manual-entry workflow involving 3 companies over a 1.5 timeframe.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code to GCP via Cloud Run with no faults ensuring customer satisfaction and seamless rollout from staging to production.
+- Automated a manual-entry workflow involving 3 companies over a 1.5 timeframe.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code to GCP via Cloud Run with no faults ensuring customer satisfaction and seamless rollout from staging to production.
 
-   Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
+- Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
 
-   Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
+- Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
 
-   Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
+- Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
 
-   Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
+- Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
 
-   Improved UX across key site features within a legacy jQuery frontend environment.
+- Improved UX across key site features within a legacy jQuery frontend environment.
 
-   Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
+- Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
 
-** 10/2020 - 12/2023
-   [[http://port80.com][Port80]]\\
-   [[https://ryseinc.ca/][Ryse Inc.]]\\
-   **Freelance Software Developer**
+** Freelance Software Developer
+Port80\\
+Oct 2020 - Dec 2023
 
-   Translated vague requirements into an enterprise CRM for a rapidly growing materials recycling firm which involved turning complex business rules into dozens of forms (React, Formik) from signup to login (including 2FA using Twilio) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on Google Cloud Run via Github Actions.  
+- Translated vague requirements into an enterprise CRM for [[https://ryseinc.ca/][Ryse Inc.]] (a rapidly growing materials recycling firm) which involved turning complex business rules into dozens of forms (React, Formik) from signup to login (including 2FA using Twilio) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on Google Cloud Run via Github Actions.  
 
-   Performed a major codebase-wide refactor in order to replace extremely a deeply nested callback structure with async/await as well as abstract inline SQL (mysql) into a query library with easily maintainable modules.  Expanded the query library which often involving complicated joins.
+- Performed a major codebase-wide refactor in order to replace extremely a deeply nested callback structure with async/await as well as abstract inline SQL (mysql) into a query library with easily maintainable modules.  Expanded the query library which often involving complicated joins.
 
-   Performed security audits using SNYK to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
+- Performed security audits using SNYK to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
 
-   Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and [[https://shopify.dev/docs/api/admin-graphql][Shopify's GraphQL]] where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
+- Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and [[https://shopify.dev/docs/api/admin-graphql][Shopify's GraphQL]] where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
 
-   Overcame challenges resulting from a fast-paced environment often splitting time between disparate projects and managing junior developers residing in different timezones worldwide.
+- Overcame challenges resulting from a fast-paced environment often splitting time between disparate projects and managing junior developers residing in different timezones worldwide.
 
-** 11/2017 - 7/2020
-   [[https://myseiubenefits.org][SEIU 775 Benefits Group]]\\
-   **Sr. Software Developer**
+:PROPERTIES:
+:TECHNOLOGIES: JavaScript React Redux Node.js Jest GraphQL
+:END:
 
-   First senior hire for a new agile development team focused on development of  an online learning management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
-   
-   Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
-   
-   Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC leveraging CloudFormation templates (later serverless) to mitigate future waste.
-   
-   Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, code review), providing instruction materials on a weekly basis.
+** Senior Software Developer
+SEIU 775 Benefits Group\\
+Nov 2017 - July 2020
 
-** 05/2017 - 08/2017
-   [[http://port80.com][Port80]]\\
-   **Freelance Software Developer**
+- First senior hire for a new agile development team focused on development of  an online learning management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
 
-   Architected and built a node.js backend to integrate [[https://www.linkedin.com/company/stitchlabs/][StitchLabs]] (an e-commerce platform for supply chain management) with various vendor distribution centers to connect small retailers to larger distribution systems.
+- Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
 
-   Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted their internal teams in reproducing and diagnosing the root cause, going past business hours as needed.
+- Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC leveraging CloudFormation templates (later serverless) to mitigate future waste.
 
-** 02/2012 - 01/2017
-   [[https://fullcircle.com][Full Circle]]\\
-   **FrontEnd / FullStack Developer**
+- Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, code review), providing instruction materials on a weekly basis.
 
-   Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, leading to sustained growth from $6m to $16m over 3 years.
+** Freelance Software Developer
+[[http://port80.com][Port80]]\\
+May 2017 - August 2017
 
-   Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform our produce-buyer decisions + input new products / inventory, and to support the in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met or their processes were improved as a result.
+- Architected and built a node.js backend to integrate [[https://www.linkedin.com/company/stitchlabs/][StitchLabs]] (an e-commerce platform for supply chain management) with various vendor distribution centers to connect small retailers to larger distribution systems.
 
-   Employed TDD to ensure a reliable UI with minimal downtime through regular regression testing via [[https://jasmine.github.io/][Jasmine]] + [[https://sinonjs.org/][Sinon]].
+- Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted their internal teams in reproducing and diagnosing the root cause, going past business hours as needed.
 
-** 08/2011 - 02/2012
-  [[https://bluenile.com][Blue Nile]]\\
-  **Developer, FrontEnd**
+** FrontEnd / FullStack Developer
+Full Circle\\
+Feb 2012 - Jan 2017
 
-  Built new features as part of the Site Development team, such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
+- Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, leading to sustained growth from $6m to $16m over 3 years.
 
-  Maintained an aging JSP framework which was glued together with monolithic JS using jQuery.  
+- Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform our produce-buyer decisions + input new products / inventory, and to support the in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met or their processes were improved as a result.
 
-  Drove and developed a YAML-driven promotion engine to improve efficiency of launching new features which include new business rules as well as allowing for UAT to be completed within the time constraints which arise each holiday season.
+- Employed TDD to ensure a reliable UI with minimal downtime through regular regression testing via [[https://jasmine.github.io/][Jasmine]] + [[https://sinonjs.org/][Sinon]].
 
-** 01/2011 - 06/2011
-   [[http://ubm.com][United Business Media]]\\
-   **Developer**
+** Front End Developer
+Blue Nile\\
+Aug 2011 - Feb 2012
 
-   Web application development, site maintenance, and event production for the [[https://blackhat.com][Black Hat]] brand.
+- Built new features as part of the Site Development team, such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
 
-   Created micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
+- Maintained an aging JSP framework which was glued together with monolithic JS using jQuery.  
 
-   Sole-developer on the first refactor of the CFP (call for papers) system from database design to\\
-   implementation in Rails.
+- Drove and developed a YAML-driven promotion engine to improve efficiency of launching new features which include new business rules as well as allowing for UAT to be completed within the time constraints which arise each holiday season.
 
-** 08/2008 - 11/2010
-   [[http://avelle.com][Bag Borrow or Steal]]\\
-   **Developer**
+** Developer
+United Business Media\\
+Jan 2011 - Jun 2011
 
-   Specialized in frontend development using Freemarker and JS (jQuery + Prototype) on a medium-scale enterprise stack (Java, Spring, Struts, and Hibernate on Tomcat).
+- Web application development, site maintenance, and event production for the [[https://blackhat.com][Black Hat]] brand.
 
-   Heavily focused on exploratory work and prototyping of new features, such as improved quick-look / zoom within the product browse interface.
+- Created micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
 
-   Integrated a from-scratch interface with a backend API built out as part of a total migration of inventory to an in-house storage facility, the rollout of which had a hard deadline and where failure was not an option.
+- Sole-developer on the first refactor of the CFP (call for papers) system from database design to implementation in Rails.
+
+** Developer
+Bag Borrow or Steal\\
+Aug 2008 - Nov 2010
+
+- Specialized in frontend development using Freemarker and JS (jQuery + Prototype) on a medium-scale enterprise stack (Java, Spring, Struts, and Hibernate on Tomcat).
+
+- Heavily focused on exploratory work and prototyping of new features, such as improved quick-look / zoom within the product browse interface.
+
+- Integrated a from-scratch interface with a backend API built out as part of a total migration of inventory to an in-house storage facility, the rollout of which had a hard deadline and where failure was not an option.
 
 
 * Education
