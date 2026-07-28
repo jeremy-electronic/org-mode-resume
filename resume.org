@@ -90,36 +90,36 @@ Feb 2026 - Present
 
 - Developed test harnesses using Harbor Framework to evaluate frontier model behavior (GPT-5.x, Claude Opus) against real-world multi-step engineering scenarios including builds and deployments.
 
-** Freelance Fullstack Software Developer
+** Software Engineer
   :PROPERTIES:
   :TECHNOLOGIES: TypeScript JavaScript Jest Figma Shopify GraphQL Google Cloud EDI
   :END:
 Factory Direct Blinds\\
 Jan 2024 - Jan 2026
    
-- Automated a manual-entry workflow which involved coordination across multiple vendors over a long-running timeframe.  Drove the project from a comprehensive scope of work to minimize friction between numerous API revisions to final EDI integration.  Deployed the rollout from staging to production ensuring stakeholder and end-user satisfaction.
+- Automated a manual-entry workflow spanning multiple vendors by driving a complex integration from requirements and API evolution through final EDI implementation. Led production rollout from staging while coordinating stakeholders to ensure a smooth deployment.
 
-- Led data-driven initiatives to increase conversion rate ~2.5x as part of a company turnaround.  Validated results using a/b testing and continuously monitored outcomes using Google Analytics and Search Console.
+- Increased website conversion rate by approximately 2.5× during a company turnaround through iterative experimentation, validating changes with A/B testing and continuous analysis using Google Analytics and Search Console.
 
-- Integrated partner APIs combined with Shopify GraphQL into new user interfaces from design to launch.
+- Built a shipment tracking experience that reduced customer support calls by giving customers real-time visibility into their orders.
 
-- Translated wireframe concepts from Figma into a fully revamped shopping experience to improve UX across key site features within the confines of a legacy frontend codebase.
+- Translated wireframe concepts from Figma into a fully revamped shopping experience to improve UX across key site features while working within the constraints of a legacy frontend architecture..
 
-- Implemented a lightweight internal knowledgebase using a containerized Wiki to consolidate knowledge sharing and facilitate onboarding through formalized SOP's.
+- Implemented a lightweight internal knowledgebase using a containerized Wiki to consolidate knowledge sharing and support onboarding with standardized documentation.
 
-** Freelance Software Developer
+** Software Consultant
 Port80\\
 Oct 2020 - Dec 2023
 
-- Translated vague requirements into an enterprise CRM for [[https://ryseinc.ca/][Ryse Inc.]] (a rapidly growing materials recycling firm) which involved turning complex business rules into dozens of forms (React, Formik) from signup to login (including 2FA using Twilio) as well as client management, materials entry, file uploads, invoicing, etc. on top of a node.js backend deployed on Google Cloud Run via Github Actions.  
+- Successfully delivered across multiple concurrent engagements requiring rapid acquisition of unfamiliar domains while managing junior developers residing in different timezones worldwide.
 
-- Performed a major codebase-wide refactor in order to replace extremely a deeply nested callback structure with async/await as well as abstract inline SQL (mysql) into a query library with easily maintainable modules.  Expanded the query library which often involving complicated joins.
+- Translated evolving business requirements into an enterprise CRM for a rapidly growing recycling company, replacing manual workflows spanning dozens of operational forms including materials tracking and invoicing.
 
-- Performed security audits using SNYK to identify latent issues resulting from a preexisting lack of best practices, eg. migrating user passwords away from MD5.
+- Improved signup, login, and client management security using 2FA and migrated password storage away from MD5.  Performed security audits using SNYK to identify security risks including SQL injection.
 
-- Utilized Shopify and supporting technologies from node.js (on koa or express, jest for TDD) to React (incl. [[https://mobx-state-tree.js.org/][mobx-state-tree]], [[https://styled-components.com/][styled-components]], React Hooks), and [[https://shopify.dev/docs/api/admin-graphql][Shopify's GraphQL]] where applicable to develop storefronts and backend integrations (eg. [[https://www.logicbroker.com/][Logicbroker]] logistics) for a variety of client requests.
+- Improved developer productivity by replacing deeply nested callback chains with async/await workflows and abstracting inline SQL into a reusable query layer.
 
-- Overcame challenges resulting from a fast-paced environment often splitting time between disparate projects and managing junior developers residing in different timezones worldwide.
+- Contributed to the migration of a mature Magento storefront to Shopify, implementing custom storefront functionality and backend integrations to preserve complex business workflows while modernizing the platform.
 
 :PROPERTIES:
 :TECHNOLOGIES: JavaScript React Redux Node.js Jest GraphQL
