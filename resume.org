@@ -97,19 +97,15 @@ Feb 2026 - Present
 Factory Direct Blinds\\
 Jan 2024 - Jan 2026
    
-- Automated a manual-entry workflow involving 3 companies over a 1.5 timeframe.  Created and coordinated a detailed project plan of action in order to minimize friction between numerous API revisions and [[https://en.wikipedia.org/wiki/Electronic_data_interchange][EDI]].  Released code to GCP via Cloud Run with no faults ensuring customer satisfaction and seamless rollout from staging to production.
+- Automated a manual-entry workflow which involved coordination across multiple vendors over a long-running timeframe.  Drove the project from a comprehensive scope of work to minimize friction between numerous API revisions to final EDI integration.  Deployed the rollout from staging to production ensuring stakeholder and end-user satisfaction.
 
-- Utilized TDD using [[https://jestjs.io/][jest]] (test driven development) to add new product lines with less need for comprehensive end to end testing along with requisite frontend code needed for new customer options.
+- Led data-driven initiatives to increase conversion rate ~2.5x as part of a company turnaround.  Validated results using a/b testing and continuously monitored outcomes using Google Analytics and Search Console.
 
-- Team lead on a company turnaround.  Identified key areas for site improvement through analytics and led initiatives to drive conversion rate resulting in a significant rebound (~2.5x) and used a/b tests (Google Analytics, Intelligems) to validate.
+- Integrated partner APIs combined with Shopify GraphQL into new user interfaces from design to launch.
 
-- Translated wireframe concepts from [[https://www.figma.com/][Figma]] into new user interfaces.
+- Translated wireframe concepts from Figma into a fully revamped shopping experience to improve UX across key site features within the confines of a legacy frontend codebase.
 
-- Combined 3rd party APIs (eg. [[https://developer.fedex.com/api/en-us/catalog/track.html][FedEx Track]], [[https://shopify.dev/docs/api/admin-graphql][Shopify Admin GraphQL]]) into new user interfaces from design to integration.
-
-- Improved UX across key site features within a legacy jQuery frontend environment.
-
-- Launched a lightweight internal knowledgebase using a containerized [[https://js.wiki/][wiki.js]] on [[https://cloud.google.com/run][Google Cloud Run]] which provides training, a consolidated data/knowledge source, and facilitates onboarding through formalizing SOP's.
+- Implemented a lightweight internal knowledgebase using a containerized Wiki to consolidate knowledge sharing and facilitate onboarding through formalized SOP's.
 
 ** Freelance Software Developer
 Port80\\
