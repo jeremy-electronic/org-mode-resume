@@ -72,9 +72,11 @@
    [[https://snorkel.ai/][Snorkel AI]]\\
    **Software Engineer, Experts Platform**
 
-   Providing evaluation of agent output for correctness (primarily Javascript, Typescript, Python, and Java pull requests) along with metric-based feedback in order to validate / improve datasets.
+   Evaluation of agent output for correctness in a variety of langauges (Javascript, Typescript, Ruby, Python and occasionally Java pull requests) along with metric-based feedback in order to validate & improve datasets.
 
-   Identifying areas for process improvement in order to create more consistent standards for both submitters and reviewers.
+   Authoring of test harnesses utilizing [[https://www.harborframework.com/][Harbor Framework]] in order to test frontier agent behavior (GPT 5.2 & 5.5, Opus 4.8) within a standardized environment against real-world scenarios involving complex multi-step reasoning including build-processes and deployment (eg. using Helm chart specs).
+
+   Identification of process improvements across provided datasets and within developer workflows leading to improved documentation as well as non-trivial time and resource savings platform-wide.  Examples such as an undiagnosed dataset issue leading to significantly decreased concurrency when running agent trial batches both during development as well as across platform backend builds due to greatly over-provisioned container memory footprint (>~70% container, est. 100k+ trials/day) as well as order of operations errors within default verifier scripts which lead to costly re-runs.
 
 ** 01/2024 - 01/2026
    Freelance, [[https://www.factorydirectblinds.com/][Factory Direct Blinds]]\\
