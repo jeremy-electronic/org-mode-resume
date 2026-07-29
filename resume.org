@@ -129,62 +129,59 @@ Oct 2020 - Dec 2023
 SEIU 775 Benefits Group\\
 Nov 2017 - July 2020
 
-- First senior hire for a new agile development team focused on development of  an online learning management system.  Provided team leadership during rapid expansion of the enterprise, including the addition of 5 additional developers (while fully remote).
+- Played a pivotal role during migration of a Salesforce-driven online learning management & state certification platform used by in-home healthcare providers state-wide into an event-driven microservices mesh built atop both Google Cloud and Amazon Web Services.
 
-- Architected and coded node.js microservices meshes on Kubernetes and ElasticBeanstalk utilizing an event-driven architecture via Cloud PubSub and SQS/SNS.
+- Improved cross-department functionality by working closely with the Data & Analytics team to develop and containerize specialized systems such as survey feedback and predictive analytics.
 
-- Designed and implemented APIs from definition to API gateway, automating resource deployments to our VPC leveraging CloudFormation templates (later serverless) to mitigate future waste.
+- Provided team leadership during rapid enterprise expansion through guidance and mentorship of junior developers over a variety of tools and processes such as platform architecture, CI/CD tooling, knowledgebase development, and code review.
 
-- Improved team efficiency through guidance and mentorship of junior developers (eg. command line tools, CI/CD tooling, knowledgebases, code review), providing instruction materials on a weekly basis.
+- Reduced developer friction caused by evolving API Gateway specification through automation of resource deployments to AWS VPC.
 
-** Freelance Software Developer
+** Contract Software Developer
 [[http://port80.com][Port80]]\\
 May 2017 - August 2017
 
-- Architected and built a node.js backend to integrate [[https://www.linkedin.com/company/stitchlabs/][StitchLabs]] (an e-commerce platform for supply chain management) with various vendor distribution centers to connect small retailers to larger distribution systems.
+- Architected and built a Node.js backend to integrate an e-commerce platform for supply chain management with various vendor distribution centers connecting small retailers to larger distribution systems.
 
-- Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted their internal teams in reproducing and diagnosing the root cause, going past business hours as needed.
+- Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted internal vendor teams in diagnosis and reproduction of root causes oftentimes arising outside normal business hours.
 
-** FrontEnd / FullStack Developer
+** Front End / Full Stack Developer
 Full Circle\\
 Feb 2012 - Jan 2017
 
-- Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, leading to sustained growth from $6m to $16m over 3 years.
+- Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, driving sustained growth from $6m to $16m over 3 years.
 
-- Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform our produce-buyer decisions + input new products / inventory, and to support the in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met or their processes were improved as a result.
+- Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform produce-buyer's decisions, new product / inventory input, and to support an in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met and processes were improved as a result.
 
-- Employed TDD to ensure a reliable UI with minimal downtime through regular regression testing via [[https://jasmine.github.io/][Jasmine]] + [[https://sinonjs.org/][Sinon]].
+- Ensured UI reliability through regular regression testing to ensure minimal downtime both during initial platform rollout, maintenance cycles, and continuous integration of internal and external user feedback.
 
 ** Front End Developer
 Blue Nile\\
 Aug 2011 - Feb 2012
 
-- Built new features as part of the Site Development team, such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
+- Built new features as part of the Site Development team such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
 
-- Maintained an aging JSP framework which was glued together with monolithic JS using jQuery.  
+- Inroduced and developed a YAML-driven promotion engine to improve efficiency of newly launched features including new business rules as well as allowing for user acceptance testing to be completed within tight time constraints arising during each holiday season.
 
-- Drove and developed a YAML-driven promotion engine to improve efficiency of launching new features which include new business rules as well as allowing for UAT to be completed within the time constraints which arise each holiday season.
+- Coordinated with both backend and site-reliability teams to maintain an aging tightly-coupled monolithic JSP framework during feature previews and final rollouts where downtime was not an option.
 
 ** Developer
 United Business Media\\
 Jan 2011 - Jun 2011
 
-- Web application development, site maintenance, and event production for the [[https://blackhat.com][Black Hat]] brand.
+- Refactored a call for papers system for the Black Hat brand from database re-design to full-stack implementation within a highly secure environment involving novel approaches for difficult specifications such as password-scheme migration where a userbase wide reset was not an option.
 
-- Created micro-sites for our events / conferences using a minimized toolset consisting of a static-site generator and a serious command of regular-expressions.
-
-- Sole-developer on the first refactor of the CFP (call for papers) system from database design to implementation in Rails.
+- Created micro-sites for conferences & events utilizing a minimized toolset consisting of a custom static-site generator often involving complex regular-expressions due to strict requirements introduced by a hardened server and disallowment of JavaScript.
 
 ** Developer
 Bag Borrow or Steal\\
 Aug 2008 - Nov 2010
 
-- Specialized in frontend development using Freemarker and JS (jQuery + Prototype) on a medium-scale enterprise stack (Java, Spring, Struts, and Hibernate on Tomcat).
+- Integrated from-scratch interfaces with a backend API as part of a total migration of inventory to an in-house storage facility where rollout specified a hard deadline and there was no margin for failure.
 
-- Heavily focused on exploratory work and prototyping of new features, such as improved quick-look / zoom within the product browse interface.
+- Performed exploratory and new feature prototyping such as improved quick-look / zoom within the product browse interface to improve conversion rate for the e-commerce platform built upon a medium-scale enterprise stack.
 
-- Integrated a from-scratch interface with a backend API built out as part of a total migration of inventory to an in-house storage facility, the rollout of which had a hard deadline and where failure was not an option.
-
+- Architected and implemented internal solutions for use by product and fraud prevention teams such as improved interfaces for user and product management including RBAC allowing authorized users to perform actions such as user impersonation.
 
 * Education
   :PROPERTIES:
