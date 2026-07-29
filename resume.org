@@ -129,7 +129,7 @@ Oct 2020 - Dec 2023
 SEIU 775 Benefits Group\\
 Nov 2017 - July 2020
 
-- Played a pivotal role during migration of a Salesforce-driven online learning management & state certification platform used by in-home healthcare providers state-wide into an event-driven microservices mesh built atop both Google Cloud and Amazon Web Services.
+- Contributed to the migration of a statewide certification and learning platform for in-home healthcare providers from a Salesforce-based monolith to an event-driven microservices architecture spanning Google Cloud and AWS.
 
 - Improved cross-department functionality by working closely with the Data & Analytics team to develop and containerize specialized systems such as survey feedback and predictive analytics.
 
@@ -143,15 +143,15 @@ May 2017 - August 2017
 
 - Architected and built a Node.js backend to integrate an e-commerce platform for supply chain management with various vendor distribution centers connecting small retailers to larger distribution systems.
 
-- Overcame systemic challenges arising from intermittent failure in client authentication systems.  Assisted internal vendor teams in diagnosis and reproduction of root causes oftentimes arising outside normal business hours.
+- Collaborated with internal and vendor engineering teams to diagnose and reproduce intermittent authentication failures across distributed systems, helping resolve complex production issues that required coordinated investigation.
 
 ** Front End / Full Stack Developer
 Full Circle\\
 Feb 2012 - Jan 2017
 
-- Successfully replaced a legacy PHP site with a responsive single-page webapp using backbone.js (at the dawn of SPA's).  Public-facing functionality included member signup, shopping cart, account management, and seasonal promotions, driving sustained growth from $6m to $16m over 3 years.
+- Modernized a legacy PHP application into a responsive single-page web platform supporting member registration, e-commerce, and account management, helping enable sustained company growth from approximately $6M to $16M in annual revenue over three years.
 
-- Took lead on design, UX direction, and engineering of a comprehensive frontend toolset for distribution center management to inform produce-buyer's decisions, new product / inventory input, and to support an in-house customer service team.  Worked closely with all relevant stakeholders to ensure their business needs were met and processes were improved as a result.
+- Led the design, UX direction, and engineering of internal operational tools supporting distribution center management, inventory planning, and customer service, partnering directly with stakeholders to streamline day-to-day workflows.
 
 - Ensured UI reliability through regular regression testing to ensure minimal downtime both during initial platform rollout, maintenance cycles, and continuous integration of internal and external user feedback.
 
@@ -199,4 +199,6 @@ Aug 2008 - Nov 2010
    pushing the web forward (eg. WebAssembly, Rust, Flutter), functional languages, infosec, UX principles (eg. Krug)
 
 ** Other
-   espresso, audio engineering, electronic music, motorsport
+   audio engineering, electronic music, motorsport
+
+
