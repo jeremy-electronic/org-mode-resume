@@ -177,11 +177,11 @@ Jan 2011 - Jun 2011
 Bag Borrow or Steal\\
 Aug 2008 - Nov 2010
 
-- Integrated from-scratch interfaces with a backend API as part of a total migration of inventory to an in-house storage facility where rollout specified a hard deadline and there was no margin for failure.
+- Integrated from-scratch frontend interfaces with backend services as part of the company's transition to an in-house fulfillment operation, supporting a business-critical migration to a custom warehouse management system (WMS) under a fixed deployment deadline.
 
-- Performed exploratory and new feature prototyping such as improved quick-look / zoom within the product browse interface to improve conversion rate for the e-commerce platform built upon a medium-scale enterprise stack.
+- Developed and evaluated e-commerce experience improvements, including product quick-view and image zoom prototypes, supporting data-informed UX decisions aimed at increasing customer engagement and conversion.
 
-- Architected and implemented internal solutions for use by product and fraud prevention teams such as improved interfaces for user and product management including RBAC allowing authorized users to perform actions such as user impersonation.
+- Architected and implemented internal administration tools for product and fraud prevention teams, including RBAC-enabled user management and secure impersonation capabilities that streamlined operational support.
 
 * Education
   :PROPERTIES:
