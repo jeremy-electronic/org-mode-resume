@@ -161,7 +161,7 @@ Aug 2011 - Feb 2012
 
 - Built new features as part of the Site Development team such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
 
-- Inroduced and developed a YAML-driven promotion engine to improve efficiency of newly launched features including new business rules as well as allowing for user acceptance testing to be completed within tight time constraints arising during each holiday season.
+- Developed a configuration-driven theming system which dramatically simplified recurring site redesigns, replacing a labor-intensive manual process with reusable configuration.
 
 - Coordinated with both backend and site-reliability teams to maintain an aging tightly-coupled monolithic JSP framework during feature previews and final rollouts where downtime was not an option.
 
@@ -169,9 +169,9 @@ Aug 2011 - Feb 2012
 United Business Media\\
 Jan 2011 - Jun 2011
 
-- Refactored a call for papers system for the Black Hat brand from database re-design to full-stack implementation within a highly secure environment involving novel approaches for difficult specifications such as password-scheme migration where a userbase wide reset was not an option.
+- Refactored a legacy conference management platform for the Black Hat brand whose denormalized data model hindered application performance, redesigning core data structures to improve maintainability and significantly reduce query complexity.
 
-- Created micro-sites for conferences & events utilizing a minimized toolset consisting of a custom static-site generator often involving complex regular-expressions due to strict requirements introduced by a hardened server and disallowment of JavaScript.
+- Strengthened credential security by migrating legacy password storage to a more secure scheme while preserving existing user credentials, avoiding a disruptive platform-wide password reset.
 
 ** Developer
 Bag Borrow or Steal\\
