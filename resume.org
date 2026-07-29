@@ -188,17 +188,7 @@ Aug 2008 - Nov 2010
   :CUSTOM_ID: education
   :END:
 
-** 08/2001 - 12/2002
-   *University of Texas at Austin*, Computer Science
-
-** 08/2005 - 12/2005
-   *University of Texas at Austin*, Computer Science
-
-* Interests
-** Professional
-   pushing the web forward (eg. WebAssembly, Rust, Flutter), functional languages, infosec, UX principles (eg. Krug)
-
-** Other
-   audio engineering, electronic music, motorsport
-
-
+** University of Texas at Austin
+Computer Science\\
+- Aug 2001 – Dec 2002
+- Aug 2005 – Dec 2005
