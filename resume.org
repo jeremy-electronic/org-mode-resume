@@ -108,6 +108,9 @@ Jan 2024 - Jan 2026
 - Implemented a lightweight internal knowledgebase using a containerized Wiki to consolidate knowledge sharing and support onboarding with standardized documentation.
 
 ** Software Consultant
+  :PROPERTIES:
+  :TECHNOLOGIES: JavaScript React Redux Node.js Jest GraphQL
+  :END:
 Port80\\
 Oct 2020 - Dec 2023
 
@@ -120,10 +123,6 @@ Oct 2020 - Dec 2023
 - Improved developer productivity by replacing deeply nested callback chains with async/await workflows and abstracting inline SQL into a reusable query layer.
 
 - Contributed to the migration of a mature Magento storefront to Shopify, implementing custom storefront functionality and backend integrations to preserve complex business workflows while modernizing the platform.
-
-:PROPERTIES:
-:TECHNOLOGIES: JavaScript React Redux Node.js Jest GraphQL
-:END:
 
 ** Senior Software Developer
 SEIU 775 Benefits Group\\
