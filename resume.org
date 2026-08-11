@@ -16,6 +16,7 @@
 #+LATEX_HEADER: \linespread{0.85}
 #+LATEX_HEADER_EXTRA:
 #+LATEX_COMPILER: pdflatex
+#+LATEX_HEADER: \usepackage{nopageno}
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
 #+LATEX_HEADER: \usepackage[none]{hyphenat}
 #+LATEX_HEADER: \usepackage[scale=.85]{tgheros}
@@ -55,12 +56,19 @@
 \begin{center}
     \vspace{-1.5cm} % Pull the name up to save space
     {\Huge \textbf{Jeremy Alan}} \\[0.2cm]
+
+    {\Large\bfseries Senior Software Engineer} \\[0.05cm]
+    {\small Full-Stack Product \& Platform Engineering}
+
     \small
     Seattle, WA, USA (US citizen) \quad \textbullet \quad 206-380-4777 \quad \textbullet \quad jeremy.electronic@pm.me \\
-    \href{https://linkedin.com}{://linkedin.com/i/jeremyelectronic}
+    \href{https://linkedin.com}{linkedin.com/i/jeremyelectronic/} \\[0.25cm]
 \end{center}
-\vspace{0.4cm}
+\vspace{0.35cm}
 #+END_EXPORT
+
+* Summary
+Senior Software Engineer with 20 years of experience leading complex software initiatives from discovery through production across healthcare, AI, consulting, and e-commerce.  Experienced in translating ambiguous business problems into reliable software while reducing technical and organizational complexity through thoughtful engineering.  Combines full-stack development, cloud infrastructure, and platform engineering with a collaborative, product-focused approach, mentoring engineers and building systems which organizations can confidently rely on.
 
 * Technical Skills
   :PROPERTIES:
@@ -82,39 +90,39 @@
   :PROPERTIES:
   :TECHNOLOGIES: TypeScript Python Ruby GPT-5 Harbor Framework Kubernetes
   :END:
-Snorkel AI\\
+Snorkel AI - Seattle, WA (Remote)\\
 Feb 2026 - Present
-- Identified dataset and workflow issues improving platform efficiency, including diagnosing container memory over-provisioning (~70% excess allocation) that reduced trial concurrency across 100k+ daily evaluations.
+- Identified dataset and workflow issues improving platform efficiency, including diagnosing container memory over-provisioning (~70% excess allocation) which increased trial concurrency across trial evaluations at scale.
 
 - Evaluated agent-generated code across JavaScript, TypeScript, Ruby, Python, and Java repositories, providing metric-based feedback used to validate and improve training datasets.
 
 - Developed test harnesses using Harbor Framework to evaluate frontier model behavior (GPT-5.x, Claude Opus) against real-world multi-step engineering scenarios including builds and deployments.
 
-** Software Engineer
+** Software Engineer, Consultant
   :PROPERTIES:
   :TECHNOLOGIES: TypeScript JavaScript Jest Figma Shopify GraphQL Google Cloud EDI
   :END:
-Factory Direct Blinds\\
+Factory Direct Blinds - Berlin, DE (Remote)\\
 Jan 2024 - Jan 2026
    
+- Increased website conversion rate by approximately 2.5x during a company turnaround through iterative experimentation, validation of changes with A/B testing and continuous analysis using Google Analytics and Search Console.
+
 - Automated a manual-entry workflow spanning multiple vendors by driving a complex integration from requirements and API evolution through final EDI implementation. Led production rollout from staging while coordinating stakeholders to ensure a smooth deployment.
 
-- Increased website conversion rate by approximately 2.5× during a company turnaround through iterative experimentation, validating changes with A/B testing and continuous analysis using Google Analytics and Search Console.
-
-- Built a shipment tracking experience that reduced customer support calls by giving customers real-time visibility into their orders.
+- Built a shipment tracking experience which noticeably reduced customer support calls by giving customers real-time visibility into their orders.
 
 - Translated wireframe concepts from Figma into a fully revamped shopping experience to improve UX across key site features while working within the constraints of a legacy frontend architecture..
 
 - Implemented a lightweight internal knowledgebase using a containerized Wiki to consolidate knowledge sharing and support onboarding with standardized documentation.
 
-** Software Consultant
+** Software Engineer, Consultant
   :PROPERTIES:
   :TECHNOLOGIES: JavaScript React Redux Node.js Jest GraphQL
   :END:
-Port80\\
+Port80 - Berlin, DE (Remote)\\
 Oct 2020 - Dec 2023
 
-- Successfully delivered across multiple concurrent engagements requiring rapid acquisition of unfamiliar domains while managing junior developers residing in different timezones worldwide.
+- Successfully delivered projects across multiple concurrent engagements requiring rapid acquisition of unfamiliar domains while managing junior developers residing in different timezones.
 
 - Translated evolving business requirements into an enterprise CRM for a rapidly growing recycling company, replacing manual workflows spanning dozens of operational forms including materials tracking and invoicing.
 
@@ -125,7 +133,7 @@ Oct 2020 - Dec 2023
 - Contributed to the migration of a mature Magento storefront to Shopify, implementing custom storefront functionality and backend integrations to preserve complex business workflows while modernizing the platform.
 
 ** Senior Software Developer
-SEIU 775 Benefits Group\\
+SEIU 775 Benefits Group - Seattle, WA (Hybrid)\\
 Nov 2017 - July 2020
 
 - Contributed to the migration of a statewide certification and learning platform for in-home healthcare providers from a Salesforce-based monolith to an event-driven microservices architecture spanning Google Cloud and AWS.
@@ -137,7 +145,7 @@ Nov 2017 - July 2020
 - Reduced developer friction caused by evolving API Gateway specification through automation of resource deployments to AWS VPC.
 
 ** Contract Software Developer
-[[http://port80.com][Port80]]\\
+Port80 - Seattle, WA (Remote)\\
 May 2017 - August 2017
 
 - Architected and built a Node.js backend to integrate an e-commerce platform for supply chain management with various vendor distribution centers connecting small retailers to larger distribution systems.
@@ -145,35 +153,39 @@ May 2017 - August 2017
 - Collaborated with internal and vendor engineering teams to diagnose and reproduce intermittent authentication failures across distributed systems, helping resolve complex production issues that required coordinated investigation.
 
 ** Front End / Full Stack Developer
-Full Circle\\
+Full Circle - Seattle, WA\\
 Feb 2012 - Jan 2017
 
-- Modernized a legacy PHP application into a responsive single-page web platform supporting member registration, e-commerce, and account management, helping enable sustained company growth from approximately $6M to $16M in annual revenue over three years.
+- Modernized a legacy PHP application into a responsive single-page platform supporting member registration, e-commerce, and account management, including a redesigned onboarding workflow which increased new member registrations approximately 3x within one week of start and helped enable company growth from roughly $6M to $16M in annual revenue over three years.
 
 - Led the design, UX direction, and engineering of internal operational tools supporting distribution center management, inventory planning, and customer service, partnering directly with stakeholders to streamline day-to-day workflows.
 
-- Ensured UI reliability through regular regression testing to ensure minimal downtime both during initial platform rollout, maintenance cycles, and continuous integration of internal and external user feedback.
+- Architected a reliable frontend foundation supported by comprehensive regression testing, enabling confident releases and continuous evolution of a business-critical platform with minimal disruption to users.
+
+:LATEX:
+#+LATEX: \newpage
+:END:
 
 ** Front End Developer
-Blue Nile\\
+Blue Nile - Seattle, WA\\
 Aug 2011 - Feb 2012
 
-- Built new features as part of the Site Development team such as filtering for Build Your Own Jewelry interface, or process improvements for laborious holiday site-theming.
+- Created new features as part of the Site Development team such as filtering for Build Your Own Jewelry interface and process improvements for laborious holiday site-theming.
 
-- Developed a configuration-driven theming system which dramatically simplified recurring site redesigns, replacing a labor-intensive manual process with reusable configuration.
+- Developed a configuration-driven theming system which dramatically simplified recurring site redesigns replacing a labor-intensive manual process with reusable configuration.
 
 - Coordinated with both backend and site-reliability teams to maintain an aging tightly-coupled monolithic JSP framework during feature previews and final rollouts where downtime was not an option.
 
 ** Developer
-United Business Media\\
+United Business Media - Seattle, WA\\
 Jan 2011 - Jun 2011
 
 - Refactored a legacy conference management platform for the Black Hat brand whose denormalized data model hindered application performance, redesigning core data structures to improve maintainability and significantly reduce query complexity.
 
-- Strengthened credential security by migrating legacy password storage to a more secure scheme while preserving existing user credentials, avoiding a disruptive platform-wide password reset.
+- Strengthened credential security by migrating legacy password storage to a more secure scheme while preserving existing user credentials - avoiding a disruptive platform-wide password reset.
 
 ** Developer
-Bag Borrow or Steal\\
+Bag Borrow or Steal - Seattle, WA\\
 Aug 2008 - Nov 2010
 
 - Integrated from-scratch frontend interfaces with backend services as part of the company's transition to an in-house fulfillment operation, supporting a business-critical migration to a custom warehouse management system (WMS) under a fixed deployment deadline.
@@ -188,6 +200,6 @@ Aug 2008 - Nov 2010
   :END:
 
 ** University of Texas at Austin
-Computer Science\\
+Computer Science
 - Aug 2001 – Dec 2002
 - Aug 2005 – Dec 2005
